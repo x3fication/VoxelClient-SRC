@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.nullnet.voxelclient.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InGameHUDMixin"
+  ],
+  "client": [
+    "GameMenuScreenMixin",
+    "MinecraftClientMixin",
+    "MultiplayerScreenMixin",
+    "MultiplayerServerListWidget$ServerEntryMixin",
+    "PlayerEntityMixin",
+    "PlayerListEntryMixin",
+    "ScreenMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "VoxelClient-refmap.json"
+}

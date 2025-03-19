@@ -1,0 +1,64 @@
+{
+  "mappings": {
+    "me/nullnet/voxelclient/mixins/GameMenuScreenMixin": {
+      "Lnet/minecraft/client/gui/widget/GridWidget$Adder;add(Lnet/minecraft/client/gui/widget/Widget;)Lnet/minecraft/client/gui/widget/Widget;": "Lnet/minecraft/class_7845$class_7939;method_47612(Lnet/minecraft/class_8021;)Lnet/minecraft/class_8021;",
+      "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+    },
+    "me/nullnet/voxelclient/mixins/InGameHUDMixin": {
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+    },
+    "me/nullnet/voxelclient/mixins/MinecraftClientMixin": {
+      "getWindowTitle": "Lnet/minecraft/class_310;method_24287()Ljava/lang/String;"
+    },
+    "me/nullnet/voxelclient/mixins/MultiplayerScreenMixin": {
+      "init": "Lnet/minecraft/class_500;method_25426()V"
+    },
+    "me/nullnet/voxelclient/mixins/MultiplayerServerListWidget$ServerEntryMixin": {
+      "render": "Lnet/minecraft/class_4267$class_4270;method_25343(Lnet/minecraft/class_332;IIIIIIIZF)V"
+    },
+    "me/nullnet/voxelclient/mixins/PlayerEntityMixin": {
+      "getSkinTextures": "Lnet/minecraft/class_742;method_52814()Lnet/minecraft/class_8685;"
+    },
+    "me/nullnet/voxelclient/mixins/PlayerListEntryMixin": {
+      "getDisplayName": "Lnet/minecraft/class_640;method_2971()Lnet/minecraft/class_2561;"
+    },
+    "me/nullnet/voxelclient/mixins/ScreenMixin": {
+      "renderBackground": "Lnet/minecraft/class_437;method_25420(Lnet/minecraft/class_332;IIF)V"
+    },
+    "me/nullnet/voxelclient/mixins/TitleScreenMixin": {
+      "init": "Lnet/minecraft/class_442;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/nullnet/voxelclient/mixins/GameMenuScreenMixin": {
+        "Lnet/minecraft/client/gui/widget/GridWidget$Adder;add(Lnet/minecraft/client/gui/widget/Widget;)Lnet/minecraft/client/gui/widget/Widget;": "Lnet/minecraft/class_7845$class_7939;method_47612(Lnet/minecraft/class_8021;)Lnet/minecraft/class_8021;",
+        "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+      },
+      "me/nullnet/voxelclient/mixins/InGameHUDMixin": {
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+      },
+      "me/nullnet/voxelclient/mixins/MinecraftClientMixin": {
+        "getWindowTitle": "Lnet/minecraft/class_310;method_24287()Ljava/lang/String;"
+      },
+      "me/nullnet/voxelclient/mixins/MultiplayerScreenMixin": {
+        "init": "Lnet/minecraft/class_500;method_25426()V"
+      },
+      "me/nullnet/voxelclient/mixins/MultiplayerServerListWidget$ServerEntryMixin": {
+        "render": "Lnet/minecraft/class_4267$class_4270;method_25343(Lnet/minecraft/class_332;IIIIIIIZF)V"
+      },
+      "me/nullnet/voxelclient/mixins/PlayerEntityMixin": {
+        "getSkinTextures": "Lnet/minecraft/class_742;method_52814()Lnet/minecraft/class_8685;"
+      },
+      "me/nullnet/voxelclient/mixins/PlayerListEntryMixin": {
+        "getDisplayName": "Lnet/minecraft/class_640;method_2971()Lnet/minecraft/class_2561;"
+      },
+      "me/nullnet/voxelclient/mixins/ScreenMixin": {
+        "renderBackground": "Lnet/minecraft/class_437;method_25420(Lnet/minecraft/class_332;IIF)V"
+      },
+      "me/nullnet/voxelclient/mixins/TitleScreenMixin": {
+        "init": "Lnet/minecraft/class_442;method_25426()V"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "voxelclient",
+  "version": "1.4.1",
+  "name": "VoxelClient",
+  "description": "Client mod",
+  "authors": ["nullnet"],
+  "contact": {"Discord":  "nullnet.", "Website":  "https://nullnet0.github.io"},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/voxelclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.nullnet.voxelclient.client.MainClient"
+    ],
+    "main": [
+      "me.nullnet.voxelclient.Main"
+    ]
+  },
+  "mixins": [
+    "voxelclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
