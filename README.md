@@ -1,4 +1,3 @@
-# VoxelClient-SRC
-- Voxel Client src leak by clarity team (clarity.gay)
+# VoxelClient
 - Voxel Client is a private client
 - join us at https://discord.gg/JKDKbfc5mu
